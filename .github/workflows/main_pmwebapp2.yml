@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'pmwebapp2'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2099f484d5674edda041c5acce441269 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bce9babc65a647ed86195225cb4dcc6f }}
         package: '*.jar'
